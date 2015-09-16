@@ -1,0 +1,56 @@
+*, html {
+	font-family: courier;
+}
+
+body {
+	margin: 0;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+header {
+	font-size: 0;
+	padding-top: 10%;
+	text-align: center;
+}
+header img {
+	max-height: 100%;
+}
+
+.container {
+	text-align: center;
+}
+.input-container {
+	margin-top: 30px;
+}
+.input-container .searchInput {
+	width: 50%;
+	padding: 3px 5px;
+	line-height: 1.1em;
+	font-size: 1em;
+}
+.output-container {
+	padding: 10px;
+}
+.result-container {
+	padding-top: 10px;
+}
+.result-container .photo-container {
+	display: inline-block;
+	width: 26%;
+	padding: 1%;
+	-webkit-transition: 3s linear all;
+	-moz-transition: 3s linear all;
+	-o-transition: 3s linear all;
+	transition: 3s linear all;
+}
+.result-container .photo-container img {
+	width: 100%;
+	max-height: 100%;
+}
+.result-container .photo-container.ng-enter {
+    opacity: 0;
+}
+.result-container .photo-container.ng-enter.ng-enter-active {
+	opacity: 1;
+}
